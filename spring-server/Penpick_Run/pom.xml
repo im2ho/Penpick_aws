@@ -161,8 +161,8 @@
 			            <phase>generate-resources</phase>
 			            <configuration>
 			                <target>
-			                    <!--<copy todir="${project.build.directory}/classes/public">-->
-			                    	<copy todir="${project.build.directory}/classes/static">
+			                    <copy todir="${project.build.directory}/classes/public">
+			                    	<!--<copy todir="${project.build.directory}/classes/static"> -->
 			                        <fileset dir="${project.basedir}/client/build"/>
 			                    </copy>
 			                </target>
